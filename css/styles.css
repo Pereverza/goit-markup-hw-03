@@ -14,6 +14,7 @@
     letter-spacing: 2%;
     line-height: 60px;
     list-style-type:none;
+    text-decoration: none;
 }
 .header-nav {
     font-family: "roboto" sans-serif;
@@ -44,13 +45,14 @@ color: #2E2F42;
     color: #404BBF; 
 }
 .button {
-    font-family: "roboto" sans-serif;
     color:#ffffff ;
     background-color:#4D5AE5 ;
     font-weight: medium;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 4%;
+  
+    
 }
 .button{
     background-color;:#4D5AE5 
@@ -58,13 +60,15 @@ color: #2E2F42;
 }
 .button:hover {
    background-color: #404BBF; 
+   cursor: pointer;
 }
 .title {
-    font-family: "roboto" sans-serif;
     font-weight: "bold";
     font-size: 36px;
     letter-spacing: 2%;
     background-color:#2E2F42 ;
+    width: 1440px;
+    height: 600px;
 }
 .title-name {
     color:#ffffff
@@ -74,34 +78,36 @@ color: #2E2F42;
 }
 
 .heading {
-    display: flex;
+ display: flex;
 align-items: flex-start;
 justify-content: flex-start;
 flex-direction: column;
 gap: 8px;
 }
 .exposition {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
+font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
 .title_2 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
+font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
 .list-title {
-    width: 1440px;
-    height: 732px;
+ display: inline-block;
+ background: #f4f4fd;
+ width: 1440px;
+ height: 732px;
+  
 }
+
 .title-Our-Team {
-    font-weight: 700;
+font-weight: 700;
 font-size: 36px;
 line-height: 1.11111;
 letter-spacing: 0.02em;
@@ -109,13 +115,94 @@ text-align: center;
 color: #2e2f42;
 }
 .card {
-    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+
+}
+.team {
+display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
 gap: 32px;
-}
-.list-title {
+float: left;
+margin: 24px;
+padding: 24px;
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+background: #fff;
+border-radius: 0 0 4px 4px;
+padding: 0px 0px 32px 0px;
+width: 264px;
+height: 380px;
 
-    background: #f4f4fd;
+
+}
+.name {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+
+}
+.TeamCard {
+ font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: #434455;
+}
+.portfolio {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+
+.Our {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+.title-foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+    float: left;
+    margin: 24px;
+    padding: 24px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+    margin-left: 156px;
+   
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
