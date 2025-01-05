@@ -1,20 +1,32 @@
 .body {
-    font-family: 'Helvetica Neue', 'Roboto', 'Verdana', sans-serif;
-    color: #434455
-    background-color; #ffffff;
-    font-weight: "regular";
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;  
+font-family: "Roboto" sans-serif;
+color: #434455
+background-color:#ffffff;
+font-weight: "regular";
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 2%;  
 }
     
 .header {
+    font-family: "Releway" sans-serif;
     font-weight: bold;
     font-size: 56px;
     letter-spacing: 2%;
     line-height: 60px;
     list-style-type:none;
     text-decoration: none;
+}
+.logo {
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+
+}
+.logo span {
+    color:#2e2f42 ;
 }
 .header-nav {
     font-family: "roboto" sans-serif;
@@ -27,10 +39,15 @@
     font-weight: "bold";
     font-size: 36px;
     letter-spacing: 2%;
+    font-style: normal;
 }
 
 .header-list-nav {
 color: #2E2F42;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 .header-list-nav:hover {
     color: #404BBF;
@@ -38,11 +55,20 @@ color: #2E2F42;
 .header-list-nav:active {
     color: #404BBF;
 }
+.header-list-nav:focus {
+ color:#404bbf;
+}
 .header-list-link {
-    color: #2E2F42;  
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;  
 }
 .header-list-link:hover {
     color: #404BBF; 
+}
+.header-list-link:focus {
+    color: #404bbf;
 }
 .button {
     color:#ffffff ;
@@ -51,17 +77,21 @@ color: #2E2F42;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 4%;
-  
-    
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;  
+    letter-spacing: 0.04em; 
+    cursor: pointer 
 }
-.button{
-    background-color;:#4D5AE5 
-    color: #ffffff;
-}
+
 .button:hover {
    background-color: #404BBF; 
-   cursor: pointer;
 }
+
+.button:focus {
+ color:#404BBF;
+}
+
+
 .title {
     font-weight: "bold";
     font-size: 36px;
@@ -72,90 +102,64 @@ color: #2E2F42;
 }
 .title-name {
     color:#ffffff
-}
-.list-line {
-    list-style-type:none;
+    line-height: 1.07;
+    font-size: 56px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
 }
 
-.heading {
- display: flex;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: column;
-gap: 8px;
-}
-.exposition {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-}
 .title_2 {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
-}
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    }
+    .exposition {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        }
+
+
+
 .list-title {
  display: inline-block;
- background: #f4f4fd;
+ background-color:#F4F4FD;
  width: 1440px;
  height: 732px;
   
 }
 
 .title-Our-Team {
-font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
 }
 .card {
-align-items: center;
-justify-content: center;
-flex-direction: column;
-
-
+    background-color: #FFFFFF
 }
-.team {
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-gap: 32px;
-float: left;
-margin: 24px;
-padding: 24px;
-box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-background: #fff;
-border-radius: 0 0 4px 4px;
-padding: 0px 0px 32px 0px;
-width: 264px;
-height: 380px;
 
-
-}
 .name {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-text-align: center;
 color: #2e2f42;
-
 }
+
 .TeamCard {
- font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-text-align: center;
 color: #434455;
 }
+
 .portfolio {
 font-weight: 700;
 font-size: 36px;
@@ -164,33 +168,16 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 }
-
 .Our {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11111;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
-}
-.title-foto {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 32px;
-    float: left;
-    margin: 24px;
-    padding: 24px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #fff;
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
-    margin-left: 156px;
-   
-}
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    }
+
+
 
 .subtitle {
     font-weight: 500;
@@ -200,7 +187,6 @@ color: #2e2f42;
     color: #2e2f42;
 }
 .desc {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -213,22 +199,11 @@ color: #2e2f42;
 height: 312px;
 background: #2e2f42;
 }
+.studio {
+    color:#f4f4fd;
+}
 .foooter {
-    margin-top: auto;
+    background-color:#2e2f42;
 }
-.footer-title {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-}
-.footer-list {
-    display: flex;
-align-items: center;
-justify-content: flex-start;
-flex-direction: row;
-gap: 0px;
-text-align: left;
 
-}
+
