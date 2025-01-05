@@ -1,18 +1,18 @@
 .body {
-font-family: "Roboto" sans-serif;
-color: #434455
-background-color:#ffffff;
-font-weight: "regular";
+font-family: "Roboto",serif;
+color: #434455;
+background-color:#FFFFFF ;
+font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-letter-spacing: 2%;  
+letter-spacing: 2em;  
 }
     
 .header {
-    font-family: "Releway" sans-serif;
-    font-weight: bold;
+    font-family: "Releway" serif;
+    font-weight: 700;
     font-size: 56px;
-    letter-spacing: 2%;
+    letter-spacing: 2em;
     line-height: 60px;
     list-style-type:none;
     text-decoration: none;
@@ -29,16 +29,16 @@ letter-spacing: 2%;
     color:#2e2f42 ;
 }
 .header-nav {
-    font-family: "roboto" sans-serif;
-    font-weight: "bold";
+    font-family: "roboto" serif;
+    font-weight: 700;
     font-size: 36px;
-    letter-spacing: 2%;
+    letter-spacing: 2em;
 }
 .header-3 {
-    font-family: "roboto" sans-serif;
-    font-weight: "bold";
+    font-family: "roboto" serif;
+    font-weight: 700;
     font-size: 36px;
-    letter-spacing: 2%;
+    letter-spacing: 2em;
     font-style: normal;
 }
 
@@ -73,11 +73,11 @@ letter-spacing: 0.02em;
 .button {
     color:#ffffff ;
     background-color:#4D5AE5 ;
-    font-weight: medium;
+    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 4%;
-    font-family: "Roboto", sans-serif;
+    letter-spacing: 4em;
+    font-family: "Roboto",serif;
     font-weight: 500;  
     letter-spacing: 0.04em; 
     cursor: pointer 
@@ -93,15 +93,15 @@ letter-spacing: 0.02em;
 
 
 .title {
-    font-weight: "bold";
+    font-weight: 700;
     font-size: 36px;
-    letter-spacing: 2%;
+    letter-spacing: 2em;
     background-color:#2E2F42 ;
     width: 1440px;
     height: 600px;
 }
 .title-name {
-    color:#ffffff
+    color:#ffffff;
     line-height: 1.07;
     font-size: 56px;
     text-align: center;
