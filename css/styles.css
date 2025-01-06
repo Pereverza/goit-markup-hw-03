@@ -33,7 +33,7 @@ font-weight: 700;
 font-size: 36px;
 letter-spacing: 2em;
 }
-.header-list-nav {
+.header-list {
 color: #2E2F42;
 font-weight: 500;
 font-size: 16px;
@@ -41,16 +41,16 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-.header-list-nav:hover {
+.header-list:hover {
 color: #404BBF;
 }
-.header-list-nav:active {
+.header-list:active {
 color: #404BBF;
 }
-.header-list-nav:focus {
+.header-list:focus {
  color:#404bbf;
 }
-.header-3 {
+.header-ddress {
 font-style: normal;
 }
 .header-contact {
