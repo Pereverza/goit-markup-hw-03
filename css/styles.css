@@ -67,9 +67,11 @@ button {
   margin-right: auto;
   height: 72px;
 }
+
 .logo-2 {
   color: #2e2f42;
 }
+
 /* =============== list line Styles =============== */
 
 .container {
@@ -87,6 +89,7 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+
 /* =============== Header Styles =============== */
 
 .header {
@@ -173,6 +176,7 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 /* === style Title === */
 
 .title {
@@ -228,6 +232,7 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
+
 .button {
   display: flex;
   align-items: flex-start;
@@ -262,6 +267,7 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+
 .title-team {
   font-size: 36px;
   line-height: 1.11;
@@ -269,23 +275,27 @@ body {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-top: 120px;
-  padding-bottom: 72px;
-  text-align: center;
+  margin-bottom: 120px;
+  padding-top: 72px;
+  display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 32px;
 }
+
 .box-title {
   flex-wrap: wrap;
   display: flex;
 }
+
 .team {
   flex-wrap: wrap;
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
   margin: 24px;
 }
-.img-portfolio {
-  display: flex;
-}
+
 /* === style Portfolio === */
 .caption {
   font-weight: 500;
@@ -297,6 +307,7 @@ body {
   padding-top: 32px;
   justify-content: center;
 }
+
 .exposition {
   font-size: 16px;
   line-height: 1.5;
@@ -306,19 +317,24 @@ body {
   padding: 8px;
   justify-content: center;
 }
+
 .img-portfolio {
   display: flex;
   flex-wrap: wrap;
-  padding: 24px;
+
+  gap: 24px;
   margin-top: 72px;
   margin-bottom: 48px;
 }
+
 .foto-card {
   margin-bottom: 48px;
   margin-left: 24px;
 }
+
 .container-portfolio {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .our-title {
@@ -328,8 +344,10 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  text-align: center;;
+  text-align: center;
+  margin-bottom: 72px;
 }
+
 /* === style Footer === */
 .section {
   background: #2e2f42;
@@ -337,21 +355,23 @@ body {
 
 .studio {
   color: #f4f4fd;
+  display: flex;
 }
 
 .main-list {
   background-color: #2e2f42;
 }
+
 .container-footer {
-  display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
   width: 1440px;
-height: 312px;
-  justify-content: space-between;
-
-
+  height: 312px;
+  padding: 0 120px;
 }
+
 .main-footer {
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -360,12 +380,13 @@ height: 312px;
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
-  
 }
 
 .main-title {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
-
+  font-size: 16px;
+  text-align: left;
+  max-width: 264px;
 }
