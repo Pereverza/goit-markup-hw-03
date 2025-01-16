@@ -38,12 +38,13 @@ button {
 
 /* =============== /Common Styles =============== */
 
-/* =============== Nav Styles =============== */
+/* =============== Header Styles =============== */
 
-.navbar-menu-1 {
+.navbar-menu {
   display: flex;
   justify-content: flex-start;
-  column-gap: 24px;
+  
+  gap: 40px;
 }
 
 .navbar-menu {
@@ -52,11 +53,15 @@ button {
   column-gap: 24px;
   margin-top: 24px;
   margin-bottom: 24px;
+  gap: 40px
+
 }
 
 .menu-nav {
   display: flex;
   align-items: baseline;
+  padding: 24px 0;
+
 }
 
 .container-menu {
@@ -71,28 +76,16 @@ button {
 .logo-2 {
   color: #2e2f42;
 }
-
-/* =============== list line Styles =============== */
-
-.container {
-  max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 600px;
-  text-align: center;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
 
-/* =============== Header Styles =============== */
+
 
 .header {
+border-bottom: 1px solid #e7e9fc;
   font-family: "Releway" sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -110,6 +103,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   display: flex;
+  margin-right: 76px;
   margin-top: 24px;
   margin-bottom: 24px;
   align-items: baseline;
@@ -163,6 +157,17 @@ body {
 .header-contact:focus {
   color: #404bbf;
 }
+/* =============== list line Styles =============== */
+
+.container-buton {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+  text-align: center;
+}
 
 .visually-hidden {
   position: absolute;
@@ -179,23 +184,8 @@ body {
 
 /* === style Title === */
 
-.title {
-  margin-bottom: 24px;
-}
 
-.container-list-line {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  padding-left: 156px;
-  padding-right: 156px;
-}
 
-.list-lina-plan {
-  display: flex;
-  column-gap: 24px;
-  width: calc((100-3 * 24px) / 4);
-  margin-top: 8px;
-}
 
 .title-name {
   font-weight: 500;
@@ -206,6 +196,7 @@ body {
   text-align: center;
   padding-top: 188px;
   padding-bottom: 292px;
+  max-width: 496px;
 }
 
 .title {
@@ -213,6 +204,7 @@ body {
 }
 
 .title-name {
+    font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -231,16 +223,13 @@ body {
   font-weight: 500;
   letter-spacing: 0.04em;
   cursor: pointer;
+      display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 }
 
-.button {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
-  border-radius: 4px;
-}
+
 
 .button:focus {
   background-color: #404bbf;
@@ -267,7 +256,17 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+.title {
+  margin-bottom: 24px;
+  padding: 188px 0 ;
+}
 
+.container-list-line {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding-left: 156px;
+  padding-right: 156px;
+}
 .title-team {
   font-size: 36px;
   line-height: 1.11;
@@ -282,6 +281,12 @@ align-items: center;
 justify-content: center;
 flex-direction: column;
 gap: 32px;
+}
+.list-lina-plan {
+  display: flex;
+  column-gap: 24px;
+  width: calc((100-3 * 24px) / 4);
+  margin-top: 8px;
 }
 
 .box-title {
@@ -360,6 +365,7 @@ gap: 32px;
 
 .main-list {
   background-color: #2e2f42;
+   
 }
 
 .container-footer {
@@ -367,7 +373,7 @@ gap: 32px;
   align-items: flex-start;
   width: 1440px;
   height: 312px;
-  padding: 0 120px;
+padding: 100px 0;
 }
 
 .main-footer {
