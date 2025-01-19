@@ -55,11 +55,8 @@ body {
   overflow: hidden;
 }
 
-.container-header,
-.container-title,
-.container-user,
-.container-portfolio,
-.conteiner-footer {
+.container
+ {
   max-width: 1158px;
   margin: 0 auto;
 }
@@ -76,6 +73,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 0px auto;
+   padding: 0 15px;
 }
 .header-nav {
   font-family: "roboto" serif;
@@ -118,20 +116,14 @@ body {
 }
 .menu-nav {
   display: flex;
+  gap: 40px ;
   align-items: center;
   padding: 24px 0 24px;
   margin-top: 24px;
   margin-bottom: 24px;
   margin-right: 40px;
 }
-.menu-nav-nav {
-  display: flex;
-  align-items: center;
-  padding: 24px 0 24px;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  margin-right: 0;
-}
+
 .header-list {
   padding: 24px 0;
   color: #2e2f42;
@@ -430,7 +422,7 @@ body {
   margin-bottom: 32px;
 }
 /* === section Footer === */
-.footer {
+.footer-title {
   padding: 100px 0px;
   background-color: #2e2f42;
   color: rgb(255, 255, 255);
