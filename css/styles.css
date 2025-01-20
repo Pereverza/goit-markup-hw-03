@@ -16,15 +16,15 @@ p {
 
 img {
     display: block;
-    height: auto;
-    max-width: auto;
+    height:0 auto;
+    max-width: 100%;
 }
 
 ul,
 ol {
     list-style-type: none;
     margin-top: auto;
-    padding: auto;
+    padding:0 auto;
 }
 
 a {
@@ -82,7 +82,7 @@ body {
 }
 
 .header-nav {
-    font-family: "roboto" serif;
+    font-family: "roboto" ,serif;
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 2em;
@@ -201,9 +201,6 @@ body {
 .title-container {
     max-width: 1158px;
     margin: 0px auto;
-}
-
-.container-title {
     max-width: 496px;
 }
 
