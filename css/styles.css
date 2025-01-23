@@ -123,7 +123,6 @@ body {
     display: flex;
     gap: 40px;
     align-items: center;
-    padding: 24px 0 24px;
   
 }
 
@@ -133,6 +132,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .header-list:hover {
@@ -253,8 +253,7 @@ body {
     flex-direction: column;
     gap: 8px;
     width: 264px;
-    height: 104px;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 72px) / 4));
 }
 
 .plan-title {
@@ -379,9 +378,10 @@ body {
 }
 
 .foto-card {
+    width: calc((100% - 48px) / 3);
     border-bottom: 1px solid #e7e9fc;
     background-color: #fff;
-    width: calc((100% - 48px) / 3);
+    
     
 }
 
@@ -404,6 +404,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px
 }
 
 .card-text {
@@ -413,7 +414,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-bottom: 8px;
+    
 }
 
 /* === section Footer === */
