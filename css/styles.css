@@ -57,11 +57,7 @@ body {
 
 .container {
     max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
     padding: 0 15px;
-    margin-left: 0px;
-    margin-right: 0px;
     margin: 0 auto;
    
 }
@@ -72,7 +68,7 @@ body {
     background-color: #ffffff;
 }
 
-.header-container {
+.container {
     display: flex;
     max-width: 1158px;
     justify-content: space-between;
@@ -192,7 +188,6 @@ body {
 .container {
     max-width: 1158px;
     margin: auto;
-    header-container
 }
 
 .title-name {
@@ -235,7 +230,7 @@ body {
     padding: 120px 0;
 }
 
-.plan-container {
+.container {
     max-width: 1158px;
     margin: 0px auto;
 }
@@ -282,7 +277,7 @@ body {
     background: #f4f4fd;
 }
 
-.user-container {
+.container {
     max-width: 1158px;
     margin: 0px auto;
 }
@@ -353,10 +348,6 @@ body {
     padding-bottom: 120px;
 }
 
-.portfolio-container {
-    max-width: 1158px;
-    margin: 0px auto;
-}
 
 .portfolio-title {
     margin-bottom: 72px;
@@ -365,7 +356,6 @@ body {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
 }
 
@@ -424,7 +414,7 @@ body {
     color: rgb(255, 255, 255);
 }
 
-.footer-container {
+.container {
     max-width: 1158px;
     margin: 0px auto;
 }
